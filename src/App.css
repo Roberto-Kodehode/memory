@@ -1,0 +1,35 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  /* padding: 2rem; */
+  text-align: left;
+  display: flex;
+  justify-content: left;
+}
+
+.card-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+  color: #efd2bb;
+  background: none;
+  padding: 8px 16px;
+  border: 1px solid #efd2bb;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: black;
+  border: 1px solid black;
+  transition: 2s;
+}
+
+h2 {
+  font-size: 48px;
+}

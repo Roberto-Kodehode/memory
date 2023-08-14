@@ -1,0 +1,39 @@
+.navbar {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #efd2bb;
+  transition: 0.8s;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #efd2bb;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 275;
+}
