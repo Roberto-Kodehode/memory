@@ -1,8 +1,21 @@
 export function LeaderBoard() {
   return (
     <div>
-      <h1>LEADERBOARD</h1>
-      <p>Work in progress!</p>
+      <h2>Leaderboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Turns</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>player.name</td>
+            <td>player.turns</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }

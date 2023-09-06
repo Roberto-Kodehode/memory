@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Home() {
   return (
     <div>
@@ -13,7 +15,9 @@ export function Home() {
         filmography and unlock a fun, challenging, and nostalgia-filled
         experience in this unique memory game.
       </p>
-      <button>Play!</button>
+      <Link to="/memorycage">
+        <button>Play!</button>
+      </Link>
     </div>
   );
 }
